@@ -4,28 +4,36 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>The Mustached Pi Project by mustached-pi</title>
-
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
   </head>
   <body>
-    <div class="wrapper">
+
       <header>
         <h1>The Mustached Pi Project</h1>
         <p>«We make your Pi grow mustaches»</p>
-        <p class="view"><a href="https://github.com/mustached-pi">View the Project on GitHub <small>mustached-pi</small></a></p>
-        <ul>
-          <li class="single"><a href="">View On <strong>GitHub</strong></a></li>
-        </ul>
       </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/mustached-pi" class="button fork"><strong>View On GitHub</strong></a>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
       <section>
-        <h3>The Mustached Pi Project</h3>
+        <h3>
+<a name="the-mustached-pi-project" class="anchor" href="#the-mustached-pi-project"><span class="octicon octicon-link"></span></a>The Mustached Pi Project</h3>
 
 <p>The MPi Project is aimed to provide a <strong>low-cost and open source home automation solution</strong> based on the <strong>Raspberry Pi</strong> mini computer.</p>
 
@@ -33,26 +41,29 @@
 
 <p>As it is not finished, the hardware scheme is not publicy available yet, but you can find the software both of the client app and the server app.</p>
 
-<h3>mustached-pi-client</h3>
+<h3>
+<a name="mustached-pi-client" class="anchor" href="#mustached-pi-client"><span class="octicon octicon-link"></span></a>mustached-pi-client</h3>
 
 <p>Mostly written in python, it runs on the Raspberry Pi and it tells the server about sensors' values and outputs what the server tells it to.</p>
 
 <p>Learn more visiting the <a href="https://github.com/mustached-pi/mustached-pi-client">project page of mustached-pi-client</a>.</p>
 
-<h3>mustached-pi-server</h3>
+<h3>
+<a name="mustached-pi-server" class="anchor" href="#mustached-pi-server"><span class="octicon octicon-link"></span></a>mustached-pi-server</h3>
 
 <p>Mostly written in PHP5 (PSR-0 compliant), it runs on a web server and uses a MySQL database to store and analyze Client's data.</p>
 
 <p>Learn more visiting the <a href="https://github.com/mustached-pi/mustached-pi-server">project page of mustached-pi-server</a>.</p>
 
-<h3>Who are we</h3>
+<h3>
+<a name="who-are-we" class="anchor" href="#who-are-we"><span class="octicon octicon-link"></span></a>Who are we</h3>
 
 <p>We are <a href="https://github.com/AlfioEmanueleFresta">Alfio Emanuele Fresta</a> and <a href="https://github.com/AngeloLupo">Angelo Lupo</a>. We're Computing students in Italy. You can contact us writing directly to our email addresses.</p>
       </section>
+      <footer>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
     </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
   </body>
